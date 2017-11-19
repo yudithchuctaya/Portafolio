@@ -20,7 +20,8 @@
     font-size: 40px;
     margin-left: 450px;
     text-decoration: none;
-    position: fixed; }
+    position: fixed;
+    z-index: 1000; }
     #icono-contacto .icon-github:hover {
       color: #FF969E;
       font-size: 42px; }
@@ -30,7 +31,8 @@
     margin-top: 3%;
     margin-left: 450px;
     text-decoration: none;
-    position: fixed; }
+    position: fixed;
+    z-index: 1000; }
     #icono-contacto .icon-linkedin:hover {
       color: #FF969E;
       font-size: 42px; }
@@ -260,13 +262,18 @@ header #mouse-scroll {
     position: relative; } }
 #aboutme {
   background: #BF7077;
-  height: 100vh;
+  height: 75vh;
   font-family: 'Baumans', cursive; }
   #aboutme #texto-habilidades {
     font-size: 18px;
-    margin-top: 14%; }
+    margin-top: 10%; }
+  #aboutme h1 {
+    color: #402528;
+    font-size: 50px;
+    font-family: 'Baumans', cursive; }
   #aboutme #foto-perfil {
-    margin-top: 5%; }
+    margin-top: 6%;
+    border-radius: 50px; }
 
 #miFrase {
   height: 30vh;
@@ -287,34 +294,38 @@ header #mouse-scroll {
     font-size: 50px;
     font-family: 'Baumans', cursive; }
   #habilidades .habili-progress {
-    margin-top: 4%; }
+    margin-top: 2%; }
   #habilidades .icon-html-five, #habilidades .icon-css3, #habilidades .icon-brand4, #habilidades .icon-html-five2, #habilidades .icon-bold, #habilidades .icon-brand4, #habilidades .icon-flattr, #habilidades .icon-wordpress, #habilidades .fa-medium, #habilidades .icon-mask {
     font-size: 40px; }
 
 #proyectos {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background: #BF7077;
   font-family: 'Baumans', cursive; }
-  #proyectos #color {
-    background: #7F4B4F; }
-    #proyectos #color #proyecto-laptop {
-      width: 100%;
-      height: 32vh;
-      background-image: url("../img/laptop.png");
-      background-repeat: no-repeat;
-      background-size: 100%;
-      background-position: center;
-      font-family: 'Baumans', cursive; }
-      #proyectos #color #proyecto-laptop #fondo {
-        overflow: hidden; }
+  #proyectos h1 {
+    color: #402528;
+    font-size: 50px;
+    font-family: 'Baumans', cursive; }
+  #proyectos #color #proyecto-laptop {
+    width: 100%;
+    height: 32vh;
+    background-image: url("../img/laptop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-family: 'Baumans', cursive; }
 
 #contacto {
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   background: #7F4B4F;
   color: #BF7077;
   font-family: 'Baumans', cursive; }
+  #contacto h1 {
+    color: #402528;
+    font-size: 50px;
+    font-family: 'Baumans', cursive; }
   #contacto .icon-mail4, #contacto .icon-mobile {
     color: #FF969E;
     font-size: 40px;

@@ -27,6 +27,7 @@
         margin-left:450px;
         text-decoration:none;
         position:fixed;
+        z-index:1000;
         &:hover{
          color:#FF969E;
          font-size:42px;
@@ -39,6 +40,7 @@
         margin-left:450px;
         text-decoration:none;
         position:fixed;
+        z-index:1000;
           &:hover{
         color:#FF969E;
         font-size:42px;
@@ -58,15 +60,22 @@
 
 #aboutme{
   background: #BF7077;
-  height: 100vh;
+  height: 75vh;
   font-family: 'Baumans', cursive;
-  #texto-habilidades{
-    font-size: 18px;
-    margin-top:14%;
-  }
-  #foto-perfil{
-  margin-top:5%;
-  }
+    #texto-habilidades{
+      font-size: 18px;
+      margin-top:10%;
+    }
+      h1{
+      color: #402528;
+      font-size: 50px;
+      font-family: 'Baumans', cursive;
+   }
+      #foto-perfil{
+      margin-top:6%;
+      border-radius:50px;
+
+      }
 
 
 }
@@ -78,6 +87,7 @@
   background-size:cover;
   background-position: center buttom;
   font-family: 'Baumans', cursive;
+
 
 }
 
@@ -93,7 +103,7 @@
       font-family: 'Baumans', cursive;
    }
    .habili-progress{
-      margin-top: 4%;
+      margin-top: 2%;
    }
 
    // iconos
@@ -105,12 +115,17 @@
 
 #proyectos{
   width: 100%;
-  height:100vh;
+  height:110vh;
   background: #BF7077;
   font-family: 'Baumans', cursive;
+      h1{
+      color: #402528;
+      font-size: 50px;
+      font-family: 'Baumans', cursive;
+   }
   #color{
 
-      background:#7F4B4F;
+      // background:#7F4B4F;
          #proyecto-laptop{
           width:100%;
           height:32vh;
@@ -119,37 +134,38 @@
           background-size:100%;
           background-position: center;
           font-family: 'Baumans', cursive;
-                 #fondo{
-            overflow:hidden;
-           }
+
         }
       }
-
-
 }
 // CONTACTO//
 
 #contacto{
   width: 100%;
-  height:50vh;
+  height:40vh;
   background: #7F4B4F;
   color: #BF7077;
   font-family: 'Baumans', cursive;
-  .icon-mail4,.icon-mobile{
-    color:#FF969E;
-    font-size:40px;
-    margin-left:40%;
-  }
-  button{
-     padding: 18px 25px;
-    background:transparent;
-    border:solid #FF969E;
-    border-radius: 20px;
+      h1{
+      color: #402528;
+      font-size: 50px;
+      font-family: 'Baumans', cursive;
+   }
+    .icon-mail4,.icon-mobile{
+        color:#FF969E;
+        font-size:40px;
+        margin-left:40%;
+      }
+      button{
+         padding: 18px 25px;
+        background:transparent;
+        border:solid #FF969E;
+        border-radius: 20px;
 
 
-  }
+      }
 
-}
+    }
 
 // FOOTER//
 
